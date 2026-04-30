@@ -123,7 +123,7 @@ export default function ProductForm({ product, onSaved, onCancel }) {
       setSlugEdited(!!product.slug);
       setError('');
     }
-  }, [product?.id]);
+  }, [product]);
 
   const set = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 
