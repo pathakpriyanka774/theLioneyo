@@ -1,4 +1,11 @@
 {
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd frontend && yarn start",
+    "start": "cd frontend && yarn start",
+    "build": "cd frontend && yarn build",
+    "install": "cd frontend && yarn install"
+  },
   "dependencies": {
     "ajv": "^8.18.0",
     "ajv-keywords": "^5.1.0"
