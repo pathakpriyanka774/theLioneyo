@@ -1,9 +1,0 @@
-{
-  "buildCommand": "yarn build",
-  "outputDirectory": "build",
-  "installCommand": "yarn install --frozen-lockfile",
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
-}
